@@ -14,7 +14,7 @@ copy(){
 	for i in {0..19} 
 	
 	do 
-	sudo cp -p ${newarr[$i]} ~/$folder/
+	 cp -p ${newarr[$i]} ~/$folder/
 	done
 }
 
